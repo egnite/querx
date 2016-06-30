@@ -2,8 +2,6 @@ package querx
 
 import "testing"
 
-var QuerxIPSSL = "192.168.192.222"
-var QuerxPortSSL = 443
 var QuerxIP = "192.168.192.236"
 var QuerxPort = 80
 var testQuerx = NewQuerx(QuerxIP, QuerxPort, false)
